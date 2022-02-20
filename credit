@@ -1,0 +1,37 @@
+print("\tWELCOME!!")
+
+user_name=input("enter your name:")
+age=int(input("enter your age:"))
+phone=int(input("enter your phone number:"))
+salary_annum=int(input("enter your salary per annum:"))
+marital_status=input("are you married?(yes/no):")
+properties=input("do you have any assert?(yes/no):")
+aadhar_no=int(input("enter your aadhar number:"))
+rent=input("are you in rental house(yes/no):")
+credit=input("have you applied for credit card before in any other bank(yes/no):")
+#score value must be in between 1 to 100 if credit value no means put 0 in score
+score=int(input("enter your bank credit card score(not means put 100):"))
+
+print("\tyour annual salary range must be above or equal to 250000")
+
+if(250000<=salary_annum<=350000 and score>=75):
+    
+    print("CONGRATULATION!!! \nyou are eligible for credit card.") 
+    print("After some direct verification you are selected for the credit card.")
+    print("upload documents aadhar card,salary receipt,credit score card proof,photos.")
+    print("your credit card limit per year is 100000 to 200000.")
+elif(350000<salary_annum<=500000 and score>=75):
+    print("CONGRATUATION!!! \nyou are eligible for credit card.")
+    print("After some direct verification you are selected for the credit card.")
+    print("upload documents aadhar card,salary receipt,credit score card proof,photos.")
+    print("your credit card limit per year is 250000 to 350000.")
+elif(salary_annum>500000):
+    print("CONGRATULATION!!! \nyou are eligible for credit card.")
+    print("After some direct verification you are selected for the credit card.")
+    print("upload documents aadhar card,salary receipt,credit score card proof,photos.")
+    print("your credit card limit per year is above 400000 as per your salary.")
+else:
+    print("sorry you are not eligible to apply for credit card.")
+    
+print("\tTHANK YOU SO MUCH!!")
+
