@@ -34,4 +34,5 @@ else:
     print("sorry you are not eligible to apply for credit card.")
     
 print("\tTHANK YOU SO MUCH!!")
+print("CONTACT: 123456789")
 
